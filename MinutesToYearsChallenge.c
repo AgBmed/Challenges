@@ -17,6 +17,7 @@ int main () {
     double MinutesInYears = 0;
     double Days = 0;
     int temperatureConversion(void);
+    int sizeOf(void);
 
     printf("Please provide me with the amount of minutes you'd like to convert \n");
     scanf("%d", &minutes);
@@ -33,6 +34,7 @@ int main () {
     printf("The amount of days these minutes are is: %f\n", Days);
 
     temperatureConversion();
+    sizeOf();
     
     return 0;
 }
