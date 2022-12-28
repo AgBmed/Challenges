@@ -12,7 +12,7 @@ int temperatureConversion() {
     printf("Please enter the amount of Celsius you want converted to Fahrenheit: \n");
     scanf("%lf", &Celsius);
 
-    convertedFahrenheit =  (Celsius * 9/5) + 32;
+    convertedFahrenheit =  (Celsius * 9.0/5.0) + 32.0;
     
     printf("your %.2lf celsius' are %.2lf in fahrenheit\n", Celsius, convertedFahrenheit);
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -23,6 +23,11 @@ int temperatureConversion() {
 
     printf("your %.2lf fahrenheit are %.2lf in celsius\n", Fahrenheit, convertedCelsius);
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-    
+    printf("Please enter the amount of Kelvin you want converted to fahrenheit: \n");
+    scanf("%lf", &Kelvin);
+
+    convertedOther = ((Kelvin - 273.15) * 9.0/5.0) + 32.0;
+
+    printf("your %.2lf kelvin are %.2lf in fahrenheit\n", Kelvin, convertedOther);
     return 0;
 }
