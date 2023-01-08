@@ -19,6 +19,7 @@ int main () {
     int temperatureConversion(void);
     int sizeOf(void);
     int amountOfPay(void);
+    int guessTheNumber(void);
 
     printf("Please provide me with the amount of minutes you'd like to convert \n");
     scanf("%d", &minutes);
@@ -37,6 +38,7 @@ int main () {
     temperatureConversion();
     sizeOf();
     amountOfPay();
+    guessTheNumber();
     
     return 0;
 }
