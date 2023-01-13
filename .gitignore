@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -50,3 +51,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+=======
+.vscode/
+build/
+>>>>>>> 0dfc8c5 (SWDEV-000007C: Cleaned up a bit, prepared for github)

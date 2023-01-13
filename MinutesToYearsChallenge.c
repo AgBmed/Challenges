@@ -20,6 +20,7 @@ int main () {
     int sizeOf(void);
     int amountOfPay(void);
     int guessTheNumber(void);
+    int findPrime(void);
 
     printf("Please provide me with the amount of minutes you'd like to convert \n");
     scanf("%d", &minutes);
@@ -39,6 +40,6 @@ int main () {
     sizeOf();
     amountOfPay();
     guessTheNumber();
-    
+    //findPrime(); work in progress
     return 0;
 }
